@@ -13,15 +13,7 @@ The primary goal is to:
 - Compare the accuracy of regression and LSTM-based models.
 - Visualize the results and understand the impact of different modeling approaches on forecasting performance.
 
-## ⚙️ Dependencies
-
-Make sure the following libraries are installed:
-
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn tensorflow
-```
-
-Used libraries:
+## ⚙️ Used libraries:
 - `numpy`
 - `pandas`
 - `matplotlib`, `seaborn`
@@ -31,8 +23,8 @@ Used libraries:
 ## 🧹 Data Preprocessing
 
 - Data is read using `pandas`.
-- Features are scaled using `MinMaxScaler`.
 - For LSTM, the data is reshaped into 3D format: `(samples, time steps, features)`.
+- For Regression, the data is reshaped into 2D format: `(samples, features)`.
 
 ## 🧠 Models
 
@@ -41,19 +33,11 @@ Used libraries:
 
 ## 📈 Evaluation
 
-- Evaluation metrics such as Mean Squared Error (MSE) or Root Mean Squared Error (RMSE) are used.
+- Evaluation metrics such as Root Mean Squared Error (RMSE) or Mean Absolute Error (MAE) are used.
 - Visualizations compare true vs predicted values for both models.
-
-## ▶️ How to Run
-
-1. Install the required packages.
-2. Open the notebook:  
-   ```bash
-   jupyter notebook "LSTM v Regression.ipynb"
-   ```
-3. Run all cells step by step.
 
 ## 📝 Notes
 
 - The project highlights the advantages of deep learning in capturing temporal dependencies.
-- Useful for educational purposes or as a baseline for more advanced forecasting tasks.
+- Useful as a baseline for more advanced forecasting tasks.
+- Future Improvements: form trading strategies from LSTM errors 
