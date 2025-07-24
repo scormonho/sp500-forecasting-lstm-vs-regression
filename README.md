@@ -40,4 +40,4 @@ The primary goal is to:
 
 - The project highlights the advantages of deep learning in capturing temporal dependencies.
 - Useful as a baseline for more advanced forecasting tasks.
-- Future Improvements: form trading strategies from LSTM errors 
+- Future improvements: form trading strategies from LSTM errors.
