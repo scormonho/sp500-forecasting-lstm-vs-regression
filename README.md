@@ -17,8 +17,8 @@ The primary goal is to:
 - `numpy`
 - `pandas`
 - `matplotlib`, `seaborn`
-- `scikit-learn`
-- `tensorflow` (for the LSTM model)
+- `scikit-learn` (for linear regression)
+- `tensorflow` (for LSTM)
 
 ## 🧹 Data Preprocessing
 
